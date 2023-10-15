@@ -21,9 +21,7 @@ For the code in the **header (header.php) and footer (footer.php)** file, the CS
 To display slider posts on posts and fixed pages, please follow the steps below.
 
 1. Log in to the WordPress management dashboard.Activate the plug-in.
-2. 2. Go to the editing screen of the post or fixed page.
-
-Paste the short code "[custom_slider]" anywhere you like.
+2. Go to the editing screen of the post or fixed page.Paste the short code "[custom_slider]" anywhere you like.
 
 ## License
 
