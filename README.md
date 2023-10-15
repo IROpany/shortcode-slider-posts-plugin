@@ -1,11 +1,11 @@
 # shortcode-slider-posts-plugin
 ## Description
 
-ショートコードスライダープラグインは、カスタムのショートコード [custom_slider] を提供し、それを使用して特定のカテゴリの最新の投稿をスライダーとして簡単に追加し表示させるWordPressプラグインです。
+ショートコードスライダーポストプラグインは、カスタムのショートコード [custom_slider] を提供し、それを使用して特定のカテゴリの最新の投稿をスライダーとして簡単に追加し表示させるWordPressプラグインです。
 
-### Shortcode Slider WordPress Plugin
+### Shortcode Slider Posts WordPress Plugin
 
-The Shortcode Slider Plugin is a WordPress plugin that provides a custom shortcode [custom_slider] and uses it to easily add and display the latest posts in a specific category as a slider.
+The Shortcode Slider Posts Plugin is a WordPress plugin that provides a custom shortcode [custom_slider] and uses it to easily add and display the latest posts in a specific category as a slider.
 
 ## Install
 
