@@ -1,9 +1,9 @@
 <?php
 /**
- * Plugin Name: Custom Slider Plugin
- * Description: Adds a custom slider to your posts.
+ * Plugin Name: Shortcode Slider Plugin
+ * Description: Adds a shortcode slider to your posts.
  * Version: 1.0
- * Author: Your Name
+ * Author: Iro
  */
 
 // Shortcode for the slider
