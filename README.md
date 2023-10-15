@@ -1,4 +1,4 @@
-# shortcode-slider-plugin
+# shortcode-slider-posts-plugin
 ## Description
 
 ショートコードスライダープラグインは、カスタムのショートコード [custom_slider] を提供し、それを使用して特定のカテゴリの最新の投稿をスライダーとして簡単に追加し表示させるWordPressプラグインです。
