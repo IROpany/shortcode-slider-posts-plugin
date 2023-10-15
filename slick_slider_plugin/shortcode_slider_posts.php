@@ -1,5 +1,4 @@
-
-  <?php
+<?php
 /**
  * Plugin Name: Custom Slider Plugin
  * Description: Adds a custom slider to your posts.
@@ -9,7 +8,8 @@
 
 // Shortcode for the slider
 function custom_slider_shortcode() {
-  ob_start(); // Start output buffering
+  ob_start(); // バッファリングを開始
+
   ?>
 
   <div class="slider">
@@ -46,7 +46,6 @@ function custom_slider_shortcode() {
     ?>
   </div>
 
-
   <script type="text/javascript">
     jQuery(document).ready(function() {
       jQuery('.slider').slick({
@@ -58,16 +57,16 @@ function custom_slider_shortcode() {
   </script>
 
   <?php
-  return ob_get_clean(); // Return the buffered content
+  return ob_get_clean(); // バッファリングしたコンテンツを返す
 }
 
-// Register the shortcode
+// ショートコードを登録
 add_shortcode('custom_slider', 'custom_slider_shortcode');
 
-
+// カスタムCSSを読み込むための関数
 function enqueue_custom_css() {
   wp_enqueue_style('custom-slider-css', plugins_url('/css/style.css', __FILE__));
 }
 
+// カスタムCSSの読み込みを設定
 add_action('wp_enqueue_scripts', 'enqueue_custom_css');
-
