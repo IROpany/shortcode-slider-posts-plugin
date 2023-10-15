@@ -22,7 +22,8 @@ To display slider posts on posts and fixed pages, please follow the steps below.
 
 1. Log in to the WordPress management dashboard.Activate the plug-in.
 2. Go to the editing screen of the post or fixed page.Paste the short code "[custom_slider]" anywhere you like.
-
+3. Enter the category ID and this category name.
+4.    
 ## License
 
 This plugin is licensed under [GPLv2 or later].
