@@ -2,3 +2,9 @@
 .slick-slide {
   margin-right: 10px; /* スペースの幅を調整 */
 }
+
+/* スライダー内の画像のアスペクト比を維持 */
+.slick-slide img{
+  width: 100%; /* 幅を１００％に設定 */
+  height: auto; /* 高さは自動調整 */
+}
