@@ -1,5 +1,3 @@
- 
- 
  <?php
 
 
@@ -11,13 +9,6 @@
 
 <!-- Slick Carousel のデフォルトスタイリングを追加する -->
 <link rel="stylesheet" type="text/css" href="https://iropany.com/joinus/wp-content/themes/cocoon-master/slick/slick-theme.css"/>
-
-/*header.phpファイル名を変更する必要はありません。
-このファイルはWordPressのテーマファイルの一部であり、
-テーマの構造を決定するために必要です。
-このファイル内で使用される外部スタイルシートのファイル名は変更することができますが、
-注意して変更する必要があります。テーマ内のファイルパスやファイル名が変更された場合、
-スタイルシートを正常に読み込めなくなる可能性があるためです。*/
-
+  
 
 ?>
