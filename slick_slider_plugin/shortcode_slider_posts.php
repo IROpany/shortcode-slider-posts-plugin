@@ -15,7 +15,7 @@ function custom_slider_shortcode() {
   <div class="slider">
     <?php
     // カテゴリーのIDを取得
-    $category = get_category_by_slug('カテゴリーslug名'); 　// 「カテゴリslug名を入力してください。」
+    $category = get_category_by_slug('カテゴリーslug名'); 　// 「カテゴリ-slug名を入力してください。」
     $category_id = $category->cat_ID;
 
     // カテゴリーに属する最新の3件の記事を取得
