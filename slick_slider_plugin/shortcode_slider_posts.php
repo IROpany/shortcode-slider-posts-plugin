@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: Shortcode Slider Plugin
+ * Plugin Name: Shortcode Slider Posts Plugin
  * Description: Adds a shortcode slider to your posts.
  * Version: 1.0
  * Author: Iro
