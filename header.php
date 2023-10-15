@@ -1,5 +1,3 @@
- <?php
-
 
  <!-- Slick Carousel の基本スタイルシートを読み込む -->
  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
@@ -11,4 +9,4 @@
 <link rel="stylesheet" type="text/css" href="https://iropany.com/joinus/wp-content/themes/cocoon-master/slick/slick-theme.css"/>
   
 
-?>
+
