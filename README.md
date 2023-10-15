@@ -16,7 +16,7 @@ The Shortcode Slider Posts Plugin is a WordPress plugin that provides a custom s
 
 To use this plugin, please follow the steps below.
 
-For the code in the **header (header.php) and footer (footer.php)** file, the CSS file of the Slick plugin is loaded in the <head> tag, and the JavaScript file and the initialization code are loaded in the <foot> tag, insert it, and enable the Slick plugin.
+For the code in the **header (header.php) and footer (footer.php)** file, the CSS file of the Slick plugin is loaded in the head tag, and the JavaScript file and the initialization code are loaded in the foot tag, insert it, and enable the Slick plugin.
 
 Enter the category ID of the shortcode_slider_posts.php file and this category name.   
 
