@@ -39,9 +39,10 @@ We welcome contributions from the community. If you wish to contribute, please f
 ## Version History
 
 - **1.0** (initial release)
-  - Added basic support button functionality.
+  
+- Added the latest posting function of the slider.
 
-## Author Information
+- ## Author Information
 
 - Author: Iro
 - GitHub: 
