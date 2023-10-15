@@ -1,4 +1,5 @@
-<?php
+
+  <?php
 /**
  * Plugin Name: Custom Slider Plugin
  * Description: Adds a custom slider to your posts.
@@ -13,12 +14,11 @@ function custom_slider_shortcode() {
 
   <div class="slider">
     <?php
-    // Your existing slider code
-    // ジョイナスカテゴリーのIDを取得
-    $category = get_category_by_slug('カテゴリーname');
+    // カテゴリーのIDを取得
+    $category = get_category_by_slug('blog');
     $category_id = $category->cat_ID;
 
-    // ジョイナスカテゴリーに属する最新の3件の記事を取得
+    // カテゴリーに属する最新の3件の記事を取得
     $args = array(
       'post_type' => 'post',
       'posts_per_page' => 4,
@@ -46,6 +46,7 @@ function custom_slider_shortcode() {
     ?>
   </div>
 
+
   <script type="text/javascript">
     jQuery(document).ready(function() {
       jQuery('.slider').slick({
@@ -63,4 +64,10 @@ function custom_slider_shortcode() {
 // Register the shortcode
 add_shortcode('custom_slider', 'custom_slider_shortcode');
 
-  
+
+function enqueue_custom_css() {
+  wp_enqueue_style('custom-slider-css', plugins_url('/css/style.css', __FILE__));
+}
+
+add_action('wp_enqueue_scripts', 'enqueue_custom_css');
+
