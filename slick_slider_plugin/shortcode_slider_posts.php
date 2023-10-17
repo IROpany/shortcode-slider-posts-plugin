@@ -18,7 +18,7 @@ function custom_slider_shortcode() {
     $category = get_category_by_slug('カテゴリーslug名'); 　// 「カテゴリ-slug名を入力してください。」
     $category_id = $category->cat_ID;
 
-    // カテゴリーに属する最新の3件の記事を取得
+    // カテゴリーに属する最新の4件の記事を取得
     $args = array(
       'post_type' => 'post',
       'posts_per_page' => 4,
