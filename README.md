@@ -60,5 +60,3 @@ Transparency of code generation: Providing information about code generation and
 Please note that the project is open source and welcomes feedback from the community that can contribute to improving the code and its security. We hope you will help us improve the quality of the project by reporting bugs and security issues and contributing to the code.
 
 
-
-![IMG_2004（小）](https://github.com/IROpany/shortcode-slider-posts-plugin/assets/56658124/bfca99a9-90be-4135-96ab-c6f4636dd7f5)
