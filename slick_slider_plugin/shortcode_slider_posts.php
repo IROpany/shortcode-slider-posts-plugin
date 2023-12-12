@@ -46,6 +46,7 @@ function custom_slider_shortcode() {
     ?>
   </div>
 
+// スライダーの調整
   <script type="text/javascript">
     jQuery(document).ready(function() {
       jQuery('.slider').slick({
