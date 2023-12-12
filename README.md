@@ -18,7 +18,7 @@ To use this plugin, please follow the steps below.
 
 For the code in the **header (header.php) and footer (footer.php)** file, the CSS file of the Slick plugin is loaded in the head tag, and the JavaScript file and the initialization code are loaded in the foot tag, insert it, and enable the Slick plugin.
 
-Enter the category ID of the shortcode_slider_posts.php file and this category name.   
+Enter the category slug name of the Shortcode_slider_posts.php file.
 
 To display slider posts on posts and fixed pages, please follow the steps below.
 
