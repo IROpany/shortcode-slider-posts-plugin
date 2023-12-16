@@ -3,7 +3,7 @@
  * Plugin Name: Shortcode Slider Posts Plugin
  * Description: Adds a shortcode slider to your posts.
  * Version: 2.1
- * Author: WP_Iro
+ * Author: Iro
  */
 
 // Shortcode for the slider
